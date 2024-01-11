@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#basketdiv{
+    display: flex;
+flex-wrap: wrap;
+padding: 30px;
+.basketproducts{
+margin-bottom: 30px;
+.proBoxDiv{
+    border: 1PX solid #4484CE;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+img{
+width: 100%;
+border-radius: 10px;
+}
+    .addtowishlistbtn{
+        background-color: #FBCE00;
+        padding: 18px;
+        border: none;
+    }
+    .removebtn{
+        background-color: #FBCE00;
+        padding: 8px;
+        border: none;
+    }
+}
+}
+    .proBox{
+        margin-bottom: 30px;
+        .proBoxDiv{
+            border: 1PX solid #4484CE;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bolder;
+            img{
+                width: 100%;
+            }
+            .addtowishlistbtn{
+                background-color: #FBCE00;
+                padding: 18px;
+                border: none;
+            }
+            .addtobasketbtn{
+                background-color: #FBCE00;
+                padding: 8px;
+                border: none;
+            }
+        }
+
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}

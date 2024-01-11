@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basketdiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+#basketdiv .basketproducts {
+  margin-bottom: 30px;
+}
+#basketdiv .basketproducts .proBoxDiv {
+  border: 1PX solid #4484CE;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+#basketdiv .basketproducts .proBoxDiv img {
+  width: 100%;
+  border-radius: 10px;
+}
+#basketdiv .basketproducts .proBoxDiv .addtowishlistbtn {
+  background-color: #FBCE00;
+  padding: 18px;
+  border: none;
+}
+#basketdiv .basketproducts .proBoxDiv .removebtn {
+  background-color: #FBCE00;
+  padding: 8px;
+  border: none;
+}
+#basketdiv .proBox {
+  margin-bottom: 30px;
+}
+#basketdiv .proBox .proBoxDiv {
+  border: 1PX solid #4484CE;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+#basketdiv .proBox .proBoxDiv img {
+  width: 100%;
+}
+#basketdiv .proBox .proBoxDiv .addtowishlistbtn {
+  background-color: #FBCE00;
+  padding: 18px;
+  border: none;
+}
+#basketdiv .proBox .proBoxDiv .addtobasketbtn {
+  background-color: #FBCE00;
+  padding: 8px;
+  border: none;
+}
+#basketdiv .proBox img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wishlistdiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+#wishlistdiv .wishlistproducts {
+  margin-bottom: 30px;
+}
+#wishlistdiv .wishlistproducts .proBoxDiv {
+  border: 1PX solid #4484CE;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+#wishlistdiv .wishlistproducts .proBoxDiv img {
+  width: 100%;
+  border-radius: 10px;
+}
+#wishlistdiv .wishlistproducts .proBoxDiv .btns {
+  display: flex;
+  gap: 10px;
+}
+#wishlistdiv .wishlistproducts .proBoxDiv .removefromwishlist {
+  background-color: #FBCE00;
+  padding: 10px;
+  border: none;
+}
+#wishlistdiv .wishlistproducts .proBoxDiv .addtobasketbtn {
+  background-color: #FBCE00;
+  padding: 8px;
+  border: none;
+}
+#wishlistdiv .proBox {
+  margin-bottom: 30px;
+}
+#wishlistdiv .proBox .proBoxDiv {
+  border: 1PX solid #4484CE;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+#wishlistdiv .proBox .proBoxDiv img {
+  width: 100%;
+}
+#wishlistdiv .proBox .proBoxDiv .addtowishlistbtn {
+  background-color: #FBCE00;
+  padding: 18px;
+  border: none;
+}
+#wishlistdiv .proBox .proBoxDiv .addtobasketbtn {
+  background-color: #FBCE00;
+  padding: 8px;
+  border: none;
+}
+#wishlistdiv .proBox img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+}
+header .container {
+  width: 95%;
+}
+header .container .nav a img {
+  width: 30%;
+}
+header .container .nav .collapseDiv {
+  width: 60%;
+}
+header .container .nav .collapseDiv ul {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 10px;
+}
+header .container .nav .collapseDiv ul li a {
+  color: white;
+}
+
+main #entrancesection {
+  background-image: url(/assets/img/amsterdam-1.jpg);
+  background-size: cover;
+  width: 100%;
+}
+main #entrancesection .container {
+  width: 95%;
+}
+main #entrancesection .container .entrancediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #entrancesection .container .entrancediv .linediv {
+  margin-top: 30px;
+  width: 2px;
+  height: 120px;
+  background-color: white;
+}
+main #entrancesection .container .entrancediv p {
+  color: white;
+}
+main #entrancesection .container .entrancediv h1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+main #entrancesection .container .entrancediv button {
+  background-color: transparent;
+  padding: 20px;
+  border: 1px solid white;
+  margin-top: 20px;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .entrancediv button:hover {
+  background-color: rgb(216, 216, 5);
+  transition: 0.3s;
+}
+main #cards {
+  width: 100%;
+}
+main #cards .container {
+  width: 95%;
+}
+main #cards .container .row .carddiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #cards .container .row .carddiv img {
+  width: 30%;
+  margin-top: 30px;
+}
+main #cards .container .row .carddiv h1 {
+  font-size: 30px;
+}
+main #cards .container .row .carddiv p {
+  color: gray;
+  margin-bottom: 30px;
+}
+main #choosenplaces {
+  width: 100%;
+}
+main #choosenplaces .container {
+  width: 95%;
+}
+main #choosenplaces .container .choosendiv {
+  padding-top: 30px;
+}
+main #choosenplaces .container .choosendiv h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  margin-top: 30px;
+}
+main #choosenplaces .container .choosendiv p {
+  color: gray;
+}
+main #choosenplaces .container .choosenimg img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+main #destination {
+  width: 100%;
+}
+main #destination .container {
+  width: 95%;
+}
+main #destination .container .titlediv {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main #destination .container .titlediv p {
+  color: gray;
+  margin-bottom: 30px;
+}
+main #destination .container .row .destinationimg {
+  margin-bottom: 30px;
+}
+main #destination .container .row .destinationimg img {
+  width: 100%;
+  border-radius: 5px;
+}
+main #discover {
+  background-image: url(/assets/img/amsterdam-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+main #discover .container {
+  width: 95%;
+}
+main #discover .container .titlediv {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main #discover .container .titlediv h1 {
+  color: white;
+  font-family: cursive;
+  margin-top: 30px;
+}
+main #discover .container .titlediv p {
+  color: white;
+  margin-bottom: 30px;
+}
+main #discover .formdiv {
+  background-color: #FBCE00;
+  padding: 30px;
+}
+main #discover .formdiv #myform {
+  padding: 30px;
+}
+main #discover .formdiv #myform .dateinputs {
+  display: flex;
+  justify-content: space-between;
+}
+main #discover .formdiv #myform .dateinputs input {
+  width: 49%;
+}
+main #discover .formdiv #myform #nameinput {
+  margin-bottom: 20px;
+  padding: 25px;
+  display: flex;
+}
+main #discover .formdiv #myform button {
+  margin-top: 30px;
+  background-color: #4484CE;
+  font-weight: bolder;
+}
+main #apisection {
+  width: 100%;
+}
+main #apisection .container {
+  width: 95%;
+}
+main #apisection .container .titlediv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 20px;
+}
+main #apisection .container .titlediv .btndiv button {
+  padding: 10px;
+  border: none;
+}
+main #apisection .container .titlediv .titletext h1 {
+  font-size: 35px;
+}
+main #apisection .container .titlediv .titletext p {
+  color: gray;
+}
+main #apisection .container .titlediv .btndiv button {
+  background-color: #FBCE00;
+}
+main #apisection .container .filterandsearchdiv {
+  padding: 18px;
+}
+main #apisection .container .filterandsearchdiv select {
+  background-color: #FBCE00;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #apisection .container .filterandsearchdiv form {
+  margin-bottom: 30px;
+}
+main #apisection .container .filterandsearchdiv form input {
+  padding: 10px;
+}
+main #apisection .container .filterandsearchdiv form button {
+  background-color: #FBCE00;
+  padding: 10px;
+  border: none;
+}
+main #apisection .container #apidiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #apisection .container #apidiv .myDiv {
+  margin-bottom: 30px;
+}
+main #apisection .container #apidiv .myDiv .proBoxDiv {
+  border: 1PX solid #4484CE;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+main #apisection .container #apidiv .myDiv .proBoxDiv img {
+  width: 100%;
+}
+main #apisection .container #apidiv .myDiv .proBoxDiv .addtowishlistbtn {
+  background-color: #FBCE00;
+  padding: 18px;
+  border: none;
+}
+main #apisection .container #apidiv .myDiv .proBoxDiv .addtobasketbtn {
+  background-color: #FBCE00;
+  padding: 8px;
+  border: none;
+}
+main #apisection .container #apidiv .proBox {
+  margin-bottom: 30px;
+}
+main #apisection .container #apidiv .proBox .proBoxDiv {
+  border: 1PX solid #4484CE;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+main #apisection .container #apidiv .proBox .proBoxDiv img {
+  width: 100%;
+}
+main #apisection .container #apidiv .proBox .proBoxDiv .addtowishlistbtn {
+  background-color: #FBCE00;
+  padding: 18px;
+  border: none;
+}
+main #apisection .container #apidiv .proBox .proBoxDiv .addtobasketbtn {
+  background-color: #FBCE00;
+  padding: 8px;
+  border: none;
+}
+main #apisection .container #apidiv .proBox img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  #apisection .container .titlediv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .container .nav .collapseDiv {
+    background-color: white;
+  }
+  header .container .nav .collapseDiv ul li a {
+    color: black;
+  }
+}
+footer {
+  width: 100%;
+}
+footer .container {
+  width: 95%;
+}
+footer .container .footerdiv {
+  display: flex;
+  justify-content: space-between;
+}

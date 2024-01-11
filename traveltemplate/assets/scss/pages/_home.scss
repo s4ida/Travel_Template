@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    .container{
+        width: 95%;
+        .nav{
+            a{
+                img{
+                    width: 30%;
+                 
+                }
+            }
+            .collapseDiv{
+                width: 60%;
+                ul{
+display: flex;
+gap: 40px;
+justify-content: center;
+margin-top: 10px;
+li{
+    a{
+        color: white;
+    }
+}
+                }
+            }
+        }
+    }
+}
+main{
+    #entrancesection{
+        background-image: url(/assets/img/amsterdam-1.jpg);
+        background-size: cover;
+        width: 100%;
+                .container{
+            width: 95%;
+           .entrancediv{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        
+.linediv{
+    margin-top: 30px;
+    width:2px; 
+    height:120px;
+    background-color: white;
+    
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 50px;
+}
+button{
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: rgb(216, 216, 5);
+    transition: 0.3s;
+}
+            }
+        }
+    }
+    #cards{
+        width: 100%;
+        .container{
+            width: 95%;
+            .row{
+                .carddiv{
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+                   justify-content: center;
+                   text-align: center;
+                   margin-top: 30px;
+                   margin-bottom: 30px;
+                   img{
+                    width: 30%;
+                    margin-top: 30px;
+                   }
+                   h1{
+                    font-size: 30px;
+                   }
+                   p{
+                    color: gray;
+                    margin-bottom: 30px;
+                   }
+                }
+            }
+        }
+    }
+    #choosenplaces{
+        width: 100%;
+        .container{
+            width: 95%;
+            .choosendiv{
+                padding-top: 30px;
+        
+                h1{
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 35px;
+                    margin-top: 30px;
+                }
+                p{
+                    color: gray;
+                }
+            }
+            .choosenimg{
+                img{
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    #destination{
+        width: 100%;
+        .container{
+            width: 95%;
+            .titlediv{
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+text-align: center;
+p{
+    color: gray;
+    margin-bottom: 30px;
+}
+            }
+            .row{
+                .destinationimg{
+                    margin-bottom: 30px;
+                img{
+                    width: 100%;
+                    border-radius: 5px;
+                }
+                }
+
+            }
+        }
+    }
+    #discover{
+        background-image: url(/assets/img/amsterdam-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100%;
+        .container{
+            width: 95%;
+            .titlediv{
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                h1{
+                    color: white;
+                    font-family: cursive;
+                    margin-top: 30px;
+                }
+                p{
+                    color: white;
+                    margin-bottom: 30px;
+                }
+                            }
+                            
+
+        }
+        .formdiv{
+            background-color:#FBCE00;
+            padding: 30px;
+            #myform{
+                padding: 30px;
+                .dateinputs{
+                    display: flex;
+                    justify-content: space-between;
+                    input{
+                        width: 49%;
+                    }
+                }
+                #nameinput{
+                    margin-bottom: 20px;
+                    padding: 25px;
+            
+                        display: flex;   
+                }
+                button{
+                    margin-top: 30px;
+                    background-color: #4484CE;
+                    font-weight: bolder;
+                
+                }
+            }
+          
+        }
+    }
+    #apisection{
+        width: 100%;
+        .container{
+width: 95%;
+.titlediv{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+    padding: 20px;
+    .btndiv{
+        button{
+            padding: 10px;
+            border: none;
+        }
+    }
+    .titletext{
+
+       h1{
+        font-size: 35px;
+       }
+       
+       p{
+        color: gray;
+       }
+      
+      
+      
+    }
+    .btndiv{
+        button{
+            background-color:#FBCE00;
+    
+           }
+    }
+  
+}
+.filterandsearchdiv{
+    padding: 18px;
+select{
+    background-color: #FBCE00;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form{
+    margin-bottom: 30px;
+    input{
+        padding: 10px;
+    }
+    button{
+        background-color: #FBCE00;
+        padding: 10px;
+        border: none;
+    }
+}
+    }
+    #apidiv{
+        display: flex;
+flex-wrap: wrap;
+.myDiv{
+    margin-bottom: 30px;
+    .proBoxDiv{
+        border: 1PX solid #4484CE;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bolder;
+img{
+    width: 100%;
+}
+        .addtowishlistbtn{
+            background-color: #FBCE00;
+            padding: 18px;
+            border: none;
+        }
+        .addtobasketbtn{
+            background-color: #FBCE00;
+            padding: 8px;
+            border: none;
+        }
+    }
+}
+        .proBox{
+            margin-bottom: 30px;
+            .proBoxDiv{
+                border: 1PX solid #4484CE;
+                padding: 10px;
+                border-radius: 10px;
+                text-align: center;
+                font-weight: bolder;
+                img{
+                    width: 100%;
+                }
+                .addtowishlistbtn{
+                    background-color: #FBCE00;
+                    padding: 18px;
+                    border: none;
+                }
+                .addtobasketbtn{
+                    background-color: #FBCE00;
+                    padding: 8px;
+                    border: none;
+                }
+            }
+
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+        }
+    }
+}
+@media screen and (max-width:520px) {
+    #apisection{
+        .container{
+            .titlediv{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    header{
+    .container{
+        .nav{
+            .collapseDiv{
+                background-color: white;
+                ul{
+                    li{
+                        a{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+}
+footer{
+    width: 100%;
+    .container{
+        width: 95%;
+        .footerdiv{
+            display: flex;
+            justify-content: space-between;
+        }
+    }}
